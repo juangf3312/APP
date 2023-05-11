@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Selection_rol">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="197dp"
+        android:layout_height="163dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/proveedor"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="195dp"
+        android:layout_height="178dp"
+        android:layout_marginTop="260dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/tienda"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <RadioGroup
+        android:id="@+id/role_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/continue_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F23C5C"
+        android:backgroundTint="#F23C5C"
+        android:text="CONTINUE"
+        android:textColor="#FDFBFB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck"
+        tools:layout_editor_absoluteY="522dp" />
+
+    <RadioButton
+        android:id="@+id/proveedor_radio_button"
+        android:layout_width="112dp"
+        android:layout_height="33dp"
+        android:background="#F23C5C"
+        android:backgroundTint="#F23C5C"
+        android:text="SUPPLIER"
+        android:textColor="#F8F8F8"
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,TouchTargetSizeCheck"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="201dp" />
+
+    <RadioButton
+        android:id="@+id/tendero_radio_button"
+        android:layout_width="139dp"
+        android:layout_height="35dp"
+        android:background="#F23C5C"
+        android:backgroundTint="#F23C5C"
+        android:text="STORE SELLER"
+        android:textColor="#FDFBFB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,TouchTargetSizeCheck"
+        tools:layout_editor_absoluteY="462dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

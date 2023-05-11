@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Promociones">
+
+    <RadioGroup
+        android:id="@+id/category_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="113dp"
+        android:layout_height="56dp"
+        android:background="#F23C5C"
+        android:backgroundTint="#F23C5C"
+        android:text="@string/choose"
+        android:textColor="#F8F8F8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints,TextContrastCheck,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteY="476dp" />
+
+    <RadioButton
+        android:id="@+id/kitchen_cleaning_radio_button"
+        android:layout_width="188dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="16dp"
+        android:background="#F23C5C"
+        android:backgroundTint="#F23C5C"
+        android:text="@string/kitchen_cleaning2x1"
+        android:textColor="#F8F8F8"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,TextContrastCheck,TextSizeCheck,DuplicateSpeakableTextCheck"
+        tools:layout_editor_absoluteY="347dp" />
+
+    <RadioButton
+        android:id="@+id/house_cleaning_radio_button"
+        android:layout_width="185dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="16dp"
+        android:background="#F23C5C"
+        android:backgroundTint="#F23C5C"
+        android:text="@string/cleaning_house2x1"
+        android:textColor="#F8F8F8"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,TextContrastCheck,TextSizeCheck"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <RadioButton
+        android:id="@+id/personal_care_radio_button"
+        android:layout_width="195dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:background="#F23C5C"
+        android:backgroundTint="#F23C5C"
+        android:text="@string/personal_hygiene2x1"
+        android:textColor="#F8F8F8"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,TextContrastCheck,TextSizeCheck"
+        tools:layout_editor_absoluteY="66dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

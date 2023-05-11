@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CatCasa">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="165dp"
+        android:layout_height="143dp"
+        app:srcCompat="@mipmap/trapeador"
+        tools:ignore="ContentDescription,MissingConstraints,ImageContrastCheck"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="258dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="158dp"
+        android:layout_height="122dp"
+        app:srcCompat="@mipmap/escoba"
+        tools:ignore="ContentDescription,MissingConstraints"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="34dp" />
+
+    <RadioButton
+        android:id="@+id/personal_care_radio_button"
+        android:layout_width="157dp"
+        android:layout_height="49dp"
+        android:background="#F23C5C"
+        android:backgroundTint="#F23C5C"
+        android:text="@string/broom"
+        android:textColor="#F8F8F8"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,TextContrastCheck,TextSizeCheck"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="189dp" />
+
+    <RadioButton
+        android:id="@+id/personal_care_radio_button4"
+        android:layout_width="157dp"
+        android:layout_height="49dp"
+        android:background="#F23C5C"
+        android:backgroundTint="#F23C5C"
+        android:text="@string/floor_mop"
+        android:textColor="#F8F8F8"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,TextContrastCheck,TextSizeCheck"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="426dp" />
+
+    <TextView
+        android:id="@+id/precio_producto1"
+        android:layout_width="130dp"
+        android:layout_height="33dp"
+        android:background="#F23C5C"
+        android:backgroundTint="#F23C5C"
+        android:text="Price to pay:13000$"
+        android:textColor="#F8F8F8"
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,TextSizeCheck"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <TextView
+        android:id="@+id/precio_producto2"
+        android:layout_width="130dp"
+        android:layout_height="33dp"
+        android:background="#F23C5C"
+        android:backgroundTint="#F23C5C"
+        android:text="Price to pay:13000$"
+        android:textColor="#F8F8F8"
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,TextSizeCheck"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="317dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#f23c5c"
+        android:text="Continue"
+        android:textColor="#F8F8F8"
+        tools:ignore="HardcodedText,MissingConstraints,VisualLintOverlap,TextContrastCheck"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="509dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

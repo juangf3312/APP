@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="208dp"
+        android:layout_height="146dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/logomoviles"
+        tools:ignore="ContentDescription,MissingConstraints"
+        tools:layout_editor_absoluteX="103dp" />
+
+    <TextView
+        android:id="@+id/editUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Emial"
+        android:enabled="false"
+        android:textColor="#F23C5C"
+        android:textColorHint=" #f23c5c "
+        tools:ignore="MissingConstraints,VisualLintOverlap"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="313dp" />
+
+    <TextView
+        android:id="@+id/EditPass"
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:layout_margin="20dp"
+        android:hint="@string/Password"
+        android:inputType="textPassword"
+        android:layoutweight="1"
+        android:text="@string/Pass"
+        android:textColor="#F23C5C"
+        android:textColorHint=" #f23c5c "
+        tools:ignore="MissingConstraints,TextViewEdits,TextSizeCheck,TextContrastCheck,TouchTargetSizeCheck,VisualLintOverlap"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="388dp" />
+
+    <Button
+        android:id="@+id/UpdUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#f23c5c"
+        android:text="@string/update"
+        tools:ignore="MissingConstraints,VisualLintOverlap"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="516dp" />
+
+    <TextView
+        android:id="@+id/ConfPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layoutweight="1"
+        android:text="@string/confirm_password"
+        android:textColor="#F23C5C"
+        android:textColorHint=" #f23c5c "
+        tools:ignore="HardcodedText,MissingConstraints,TextViewEdits,TextContrastCheck,TouchTargetSizeCheck,VisualLintOverlap"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="466dp" />
+
+    <TextView
+        android:id="@+id/SignUser"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#F23C5C"
+        android:gravity="center"
+        android:layoutweight="1"
+        android:text="@string/signUp"
+        android:textColor="#0E0E0E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
